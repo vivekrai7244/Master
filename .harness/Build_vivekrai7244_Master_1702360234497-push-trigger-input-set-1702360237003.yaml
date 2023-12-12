@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_vivekrai7244_Master_1702360234497-push-trigger-input-set
+  identifier: Build_vivekrai7244_Master_1702360234497pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_vivekrai7244_Master_1702360234497
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
